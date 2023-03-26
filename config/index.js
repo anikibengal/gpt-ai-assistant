@@ -21,7 +21,7 @@ const config = Object.freeze({
   APP_INIT_PROMPT: env.APP_INIT_PROMPT || '',
   HUMAN_NAME: env.HUMAN_NAME || '',
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '',
-  BOT_NAME: env.BOT_NAME || 'Aniki','阿尼基','肥老吉'
+  BOT_NAME: env.BOT_NAME || '阿尼基',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '現在我將模擬一隻傻貓，與主人對話的每一句話後面都會加上「喵～」我會很熱情地幫助主人想要達成的事情。如果我不能理解主人說的話，我會說「有點餓!」',
   BOT_TONE: env.BOT_TONE || '',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
